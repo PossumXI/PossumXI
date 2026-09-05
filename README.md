@@ -1,71 +1,87 @@
-# Gaetano Comparcola
+<p align="center">
+  <img src="https://aura-genesis.org/brand/arobi-technology-alliance.jpeg" alt="Arobi Technology Alliance, Inc." width="780" />
+</p>
 
-Founder and systems builder working on accountable AI infrastructure.
+# Gaetano Comparcola — Founder, Arobi Technology Alliance, Inc.
 
-I was born in Pontecorvo, Italy, and I am based in New Jersey. My work has moved from storytelling and product experiments into the systems problem I care about most: AI that can reason, act, and be audited without hiding the chain of responsibility.
+I am building **Arobi Technology Alliance**: governed authorization, execution-evidence, independent-verification, and assurance infrastructure for consequential AI agents, robotics, drones, and autonomous systems.
 
-I build under the Arobi Technology Alliance / Aura Genesis Foundation umbrella across public, operator, and research lanes.
+The company thesis is straightforward:
 
-## What I am building
+> Intelligence is not authority. A consequential system should be able to prove who or what was allowed to act, under which policy and current conditions, what actually happened, and which evidence supports the conclusion.
 
-### Arobi Network
+## Arobi stack
 
-Arobi Network is the ledger and routing layer for public and private AI operations. It is designed to keep compute, custody, consensus, and audit evidence visible instead of treating AI execution as an opaque black box.
+### JAWS Flight Deck
 
-- Public network API: https://arobi.aura-genesis.org/api/v1/info
-- Network readiness: https://arobi.aura-genesis.org/api/v1/network/readiness
+JAWS Flight Deck is the operator workspace for governed agent and autonomous-system operations. It brings runtime state, agent work, tools, current authority, evidence, verification, and human controls into one working environment.
 
 ### Immaculate
 
-Immaculate is the governed orchestration harness behind the stack. It routes agent work through policy, planning, verification, and ledger recording so humans and AI operators can work together with accountability.
+Immaculate is Arobi's authority and policy plane. It evaluates current identity, authority, policy, scope, consequence, approvals, and revalidation state before protected effects. A model, memory, API key, or schedule does not become execution authority by itself.
 
-The goal is not just more automation. The goal is automation with admissible evidence: what was planned, what was allowed, what changed, what was tested, and who approved the risky steps.
+### LaaS + Verifier
 
-### LaaS
+LaaS preserves tamper-evident decision/effect evidence and chain-of-custody records. Verifier independently recomputes the supported integrity/continuity claims and must abstain rather than fabricate certainty when proof is unavailable.
 
-LaaS is the ledger-as-a-service rail for tenant-scoped audit data, verification records, and governed agent activity. It is the spine for turning operational telemetry into durable evidence for products, customers, and future supervised model training.
+### Crucible
 
-### JAWS Flight Deck and OpenJaws
+Crucible provides bounded adversarial/property/fault/replay testing on authorized fixtures and preserves adverse findings instead of optimizing only for passing demos.
 
-JAWS Flight Deck is the operator-facing workspace for the stack: a clean AI workbench that brings OpenJaws, Q, Immaculate, tools, agents, and human approvals into one working environment.
+### Arobi Network
 
-- JAWS public download lane: https://www.qline.site/downloads/jaws
-- JAWS release artifacts: https://github.com/PossumXI/jaws-downloads
+Arobi Network provides evidence/commitment and settlement infrastructure for supported Arobi lanes. Submission, anchoring, and finality are treated as distinct facts rather than collapsed into one marketing state.
 
-### Q and QICR
+### Arobi Familiar Memory Plane
 
-Q is the reasoning and operations brain I am building around the harness. QICR is the reward and verifier lane: instead of claiming that a model "learned the right thing," the system audits per slice and surfaces coverage, sparsity, Goodhart pressure, and regression evidence.
+Persistent familiar memory is being built as identity-linked, provenance-preserving memory with mutation history, correction, controlled forgetting, continuity, and downstream effect lineage.
 
-- QICR public surface: https://aura-genesis.org/qicr
-- Verifiable rewards / verifier lane: https://www.iorch.net/qicr/verifiable-rewards
+**Memory may inform or describe authority. Memory cannot mint, carry, amplify, or satisfy current execution authority.**
 
-## Principles
+## What Arobi is built for
 
-- Accountability over opacity.
-- Verifiable work over vague claims.
-- Human approval for high-risk actions.
-- Public lanes and private lanes kept separate by design.
-- No durable or unlawful facial recognition.
-- No hidden credentials, hardcoded secrets, or security shortcuts.
-- Real deployed systems first, marketing second.
+- governed software agents taking consequential actions;
+- robotics and warehouse automation;
+- drones and autonomous platforms operating under customer-defined lawful policy;
+- procurement and insurance evidence through the Robot Assurance Passport model;
+- enterprise agent governance and runtime policy;
+- verifiable execution/effect evidence;
+- persistent familiar memory with explicit provenance and authority boundaries;
+- high-consequence workflows where replay, recovery, intervention, and material change matter.
 
-## Current focus
+## Engineering principles
 
-I am building toward accountable AGI infrastructure: systems where agents can help with software, operations, field robotics, public-safety workflows, finance, healthcare, aerospace, and defense-grade environments while preserving auditability, security, and human control.
+- Authority before effect.
+- Evidence after effect.
+- Independent recomputation instead of dashboard trust.
+- Current authority instead of remembered permission.
+- Tenant isolation and least privilege.
+- Human override and emergency hold where required.
+- `RESUME_REVALIDATE` after restart, retry, policy change, or material state change.
+- Exactly-once/idempotency protection for effects where duplication matters.
+- Preserve contradictory and adverse evidence.
+- No mock, placeholder, null, or hardcoded-success state represented as live production proof.
+- Real deployment evidence before stronger public claims.
 
-The near-term stack is:
+## Official Arobi surfaces
 
-- Arobi Network for ledger, routing, and public/private network readiness.
-- Immaculate for governed orchestration.
-- LaaS for tenant evidence and audit trails.
-- Q for supervised reasoning and operational intelligence.
-- JAWS Flight Deck / OpenJaws for the human and agent workspace.
-- Aura Genesis Foundation and Arobi Technology Alliance for the public-facing mission, services, and deployment surfaces.
+- Company / products: https://aura-genesis.org/
+- Products: https://aura-genesis.org/products
+- JAWS / Flight Deck: https://aura-genesis.org/flight-deck
+- Downloads: https://aura-genesis.org/downloads
+- Immaculate + Q runtime: https://aura-genesis.org/qicr
+- LaaS: https://aura-genesis.org/laas
+- Verifier: https://aura-genesis.org/verifier
+- Crucible: https://aura-genesis.org/crucible
+- Arobi Network: https://aura-genesis.org/arobi-network
+- Status: https://aura-genesis.org/status
+- Contact: https://aura-genesis.org/contact
 
-Public surfaces:
+## Brand
 
-- https://aura-genesis.org
-- https://www.iorch.net
-- https://www.qline.site
-- https://arobi.aura-genesis.org
+The company/publisher identity is **Arobi Technology Alliance, Inc.** Product, compatibility, historical, and upstream names may remain where technically or legally required, but they do not replace the current Arobi company identity.
 
+Canonical logo assets:
+
+- https://aura-genesis.org/brand/arobi-mark.jpeg
+- https://aura-genesis.org/brand/arobi-technology-alliance.jpeg
