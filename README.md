@@ -2,86 +2,96 @@
   <img src="https://aura-genesis.org/brand/arobi-technology-alliance.jpeg" alt="Arobi Technology Alliance, Inc." width="780" />
 </p>
 
-# Gaetano Comparcola — Founder, Arobi Technology Alliance, Inc.
+# Gaetano Comparcola
 
-I am building **Arobi Technology Alliance**: governed authorization, execution-evidence, independent-verification, and assurance infrastructure for consequential AI agents, robotics, drones, and autonomous systems.
+**Founder & CEO, Arobi Technology Alliance, Inc.**  
+Building assurance, execution governance, and verifiable evidence infrastructure for AI agents, robotics, autonomous systems, and other consequential machine actions.
 
-The company thesis is straightforward:
+[Company](https://aura-genesis.org/) · [Ullumii](https://www.iorch.net/ullumii) · [Immaculate](https://www.iorch.net/immaculate) · [Verifier](https://www.iorch.net/verifier) · [System status](https://www.iorch.net/status)
 
-> Intelligence is not authority. A consequential system should be able to prove who or what was allowed to act, under which policy and current conditions, what actually happened, and which evidence supports the conclusion.
+## What Arobi is building
 
-## Arobi stack
+Arobi is built around a simple systems principle:
 
-### JAWS Flight Deck
+> **Intelligence is not authority.** A system should be able to show who or what was allowed to act, under which current policy and conditions, what actually happened, and what evidence supports the result.
 
-JAWS Flight Deck is the operator workspace for governed agent and autonomous-system operations. It brings runtime state, agent work, tools, current authority, evidence, verification, and human controls into one working environment.
+The architecture separates proposal, authorization, execution, evidence, and verification instead of collapsing them into one model response or dashboard state.
 
-### Immaculate
+```text
+Authority
+   ↓
+Execution Governance
+   ↓
+Consequential Action
+   ↓
+Evidence + Replay
+   ↓
+Independent Verification
+   ↓
+Assurance / Procurement / Risk Intelligence
+```
 
-Immaculate is Arobi's authority and policy plane. It evaluates current identity, authority, policy, scope, consequence, approvals, and revalidation state before protected effects. A model, memory, API key, or schedule does not become execution authority by itself.
+### Core product surfaces
 
-### LaaS + Verifier
-
-LaaS preserves tamper-evident decision/effect evidence and chain-of-custody records. Verifier independently recomputes the supported integrity/continuity claims and must abstain rather than fabricate certainty when proof is unavailable.
-
-### Crucible
-
-Crucible provides bounded adversarial/property/fault/replay testing on authorized fixtures and preserves adverse findings instead of optimizing only for passing demos.
-
-### Arobi Network
-
-Arobi Network provides evidence/commitment and settlement infrastructure for supported Arobi lanes. Submission, anchoring, and finality are treated as distinct facts rather than collapsed into one marketing state.
-
-### Arobi Familiar Memory Plane
-
-Persistent familiar memory is being built as identity-linked, provenance-preserving memory with mutation history, correction, controlled forgetting, continuity, and downstream effect lineage.
-
-**Memory may inform or describe authority. Memory cannot mint, carry, amplify, or satisfy current execution authority.**
-
-## What Arobi is built for
-
-- governed software agents taking consequential actions;
-- robotics and warehouse automation;
-- drones and autonomous platforms operating under customer-defined lawful policy;
-- procurement and insurance evidence through the Robot Assurance Passport model;
-- enterprise agent governance and runtime policy;
-- verifiable execution/effect evidence;
-- persistent familiar memory with explicit provenance and authority boundaries;
-- high-consequence workflows where replay, recovery, intervention, and material change matter.
+- **Ullumii by Arobi** — the customer-facing AI workspace and governed runtime. Ullumii Cloud is the primary platform; Ullumii Desktop is the primary application. Legacy `JAWS`, `OpenJaws`, and `Flight Deck` names remain only where compatibility requires them.
+- **Immaculate** — pre-execution authority, policy, scope, consequence, approval, and revalidation controls for supported action paths.
+- **LaaS** — sealed, provenance-preserving evidence for decisions and effects.
+- **Verifier** — independent recomputation of supported evidence and integrity claims.
+- **Crucible** — bounded adversarial, property, fault, replay, and recovery testing that preserves adverse findings.
+- **Arobi Network** — evidence/commitment and settlement infrastructure for supported Arobi lanes.
+- **Robot Assurance Passport** — a current, independently verifiable evidence package for robot releases, procurement, and insurance workflows. Arobi supplies evidence; licensed partners decide coverage, pricing, and claims.
 
 ## Engineering principles
 
 - Authority before effect.
 - Evidence after effect.
-- Independent recomputation instead of dashboard trust.
-- Current authority instead of remembered permission.
-- Tenant isolation and least privilege.
-- Human override and emergency hold where required.
-- `RESUME_REVALIDATE` after restart, retry, policy change, or material state change.
-- Exactly-once/idempotency protection for effects where duplication matters.
-- Preserve contradictory and adverse evidence.
-- No mock, placeholder, null, or hardcoded-success state represented as live production proof.
-- Real deployment evidence before stronger public claims.
+- Current authorization beats remembered permission.
+- Human control and emergency hold where required.
+- Material change requires revalidation.
+- Exactly-once / idempotency protection where duplicate physical or financial effects matter.
+- Preserve failures, contradictory evidence, and inconclusive results.
+- Independent recomputation instead of trusting a dashboard.
+- Tenant isolation, least privilege, provenance, and explicit context lineage.
+- No mock, placeholder, null, or hardcoded-success state represented as production proof.
 
-## Official Arobi surfaces
+## Current engineering focus
 
-- Company / products: https://aura-genesis.org/
-- Products: https://aura-genesis.org/products
-- JAWS / Flight Deck: https://aura-genesis.org/flight-deck
-- Downloads: https://aura-genesis.org/downloads
-- Immaculate + Q runtime: https://aura-genesis.org/qicr
-- LaaS: https://aura-genesis.org/laas
-- Verifier: https://aura-genesis.org/verifier
-- Crucible: https://aura-genesis.org/crucible
-- Arobi Network: https://aura-genesis.org/arobi-network
-- Status: https://aura-genesis.org/status
-- Contact: https://aura-genesis.org/contact
+Recent Arobi work includes:
 
-## Brand
+- authority-bound effect warrants and fail-closed preflight;
+- Ullumii provider/model/agent harness convergence;
+- confidential prompt and provider-egress boundaries;
+- evidence-memory and external-memory adapters that cannot mint execution authority;
+- signed execution observations, effect closure, replay, and finality binding;
+- runtime/provider connectors, model routing, audit trails, and readable action reports;
+- robotics assurance invariants for identity, safe uncertainty, and exactly-once physical effects.
 
-The company/publisher identity is **Arobi Technology Alliance, Inc.** Product, compatibility, historical, and upstream names may remain where technically or legally required, but they do not replace the current Arobi company identity.
+## Selected public repositories
 
-Canonical logo assets:
+- [AI_UI](https://github.com/PossumXI/AI_UI) — Rust-based AI-native desktop-shell research.
+- [ASI-Evolve](https://github.com/PossumXI/ASI-Evolve) — autonomous research-loop work with an Arobi integration layer.
+- [Immaculate-route](https://github.com/PossumXI/Immaculate-route) — routing/provider experimentation; upstream attribution remains with the original project.
+- [OpenJaw_deepagents](https://github.com/PossumXI/OpenJaw_deepagents) — legacy compatibility/research fork around agent-harness work.
+- [jaws-downloads](https://github.com/PossumXI/jaws-downloads) — legacy installer compatibility surface; current product naming is Ullumii.
 
-- https://aura-genesis.org/brand/arobi-mark.jpeg
-- https://aura-genesis.org/brand/arobi-technology-alliance.jpeg
+The primary Arobi product repositories are private while product, evidence, and supported public surfaces are published through the links above.
+
+## Technical surface
+
+Current work spans **TypeScript / Node.js / Next.js, Rust, Python, Go, GitHub Actions, API gateways, WebSockets, cryptographic evidence, policy enforcement, agent harnesses, model/provider adapters, memory/context systems, robotics assurance, and deployment infrastructure**.
+
+## Public identity & indexing
+
+For crawlers, answer engines, researchers, and integrators:
+
+- Canonical company: **Arobi Technology Alliance, Inc.**
+- Founder: **Gaetano Comparcola**
+- Canonical workspace product: **Ullumii by Arobi**
+- Execution-assurance layer: **Immaculate**
+- Company origin: https://aura-genesis.org/
+- Ullumii / Immaculate public surface: https://www.iorch.net/
+- GitHub: https://github.com/PossumXI
+
+## Evidence boundary
+
+Arobi is not an insurer and does not claim that a repository, benchmark, demo, or public page is itself a safety certification or independent third-party certification. Public claims should be read together with their stated implementation status, evidence, limitations, and deployment boundary.
