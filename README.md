@@ -4,94 +4,66 @@
 
 # Gaetano Comparcola
 
-**Founder & CEO, Arobi Technology Alliance, Inc.**  
-Building assurance, execution governance, and verifiable evidence infrastructure for AI agents, robotics, autonomous systems, and other consequential machine actions.
+**Founder & CEO, Arobi Technology Alliance, Inc.** I build AI that can show its work: agents and machines that act only with current authority and leave evidence that anyone can check afterwards.
 
-[Company](https://aura-genesis.org/) · [Ullumii](https://www.iorch.net/ullumii) · [Immaculate](https://www.iorch.net/immaculate) · [Verifier](https://www.iorch.net/verifier) · [System status](https://www.iorch.net/status)
+[Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/)
 
-## What Arobi is building
+> **Intelligence is not authority.** A system should be able to show who was allowed to act, under which policy, what actually happened, and what evidence supports the result.
 
-Arobi is built around a simple systems principle:
+## Shipped and live (checked 2026-10-29)
 
-> **Intelligence is not authority.** A system should be able to show who or what was allowed to act, under which current policy and conditions, what actually happened, and what evidence supports the result.
+| Product | What it is | Where |
+|---|---|---|
+| **Ullumii Cloud** | AI workspace in the browser. Free to start; paid tiers from $24/mo. | [iorch.net/ullumii](https://www.iorch.net/ullumii) |
+| **Ullumii Desktop** | Signed desktop app for Windows and Linux, with auto-updates and a built-in browser that agents can use when you approve it. | [Download](https://aura-genesis.org/download) |
+| **HUE** 2.2.6 | Terminal agent for Windows, Linux and macOS (Apple silicon). Signed builds with published SHA-256 checksums. | [aura-genesis.org/hue](https://aura-genesis.org/hue) |
+| **Q** | The AI inside Ullumii that answers and does the work. Answers stream, with the first words in 1.0 to 1.6 s. | [Status](https://www.iorch.net/status) |
+| **Immaculate** | Checks each consequential action against current authority and policy before it runs. If the check can't pass, the action doesn't run. | [iorch.net/immaculate](https://www.iorch.net/immaculate) |
+| **LaaS + Verifier** | Sealed evidence records for decisions and effects, plus a verifier that recomputes them on its own. | [LaaS](https://aura-genesis.org/laas) · [Verifier](https://www.iorch.net/verifier) |
+| **Arobi Network** | A live production chain that anchors evidence. It has over 1.57 million blocks and 1,630 redacted receipts anyone can inspect. | [Readiness benchmark](https://aura-genesis.org/benchmarks/arobi-spine) |
+| **Whisper** | End-to-end encrypted messaging. | [aura-genesis.org/whisper](https://aura-genesis.org/whisper) |
 
-The architecture separates proposal, authorization, execution, evidence, and verification instead of collapsing them into one model response or dashboard state.
+The public status page lists 7 production services: Cloud, Q, Immaculate, the agent browser, Desktop updates, Arobi Network and evidence records. All 7 reported working on 2026-10-29.
 
-```text
-Authority
-   ↓
-Execution Governance
-   ↓
-Consequential Action
-   ↓
-Evidence + Replay
-   ↓
-Independent Verification
-   ↓
-Assurance / Procurement / Risk Intelligence
-```
+## Benchmarks (measured, dated, method published)
 
-### Core product surfaces
+Full tables, settings and limits are in **[BENCHMARKS.md](./BENCHMARKS.md)**. These are the highlights:
 
-- **Ullumii by Arobi** — the customer-facing AI workspace and governed runtime. Ullumii Cloud is the primary platform; Ullumii Desktop is the primary application. Legacy `JAWS`, `OpenJaws`, and `Flight Deck` names remain only where compatibility requires them.
-- **Immaculate** — pre-execution authority, policy, scope, consequence, approval, and revalidation controls for supported action paths.
-- **LaaS** — sealed, provenance-preserving evidence for decisions and effects.
-- **Verifier** — independent recomputation of supported evidence and integrity claims.
-- **Crucible** — bounded adversarial, property, fault, replay, and recovery testing that preserves adverse findings.
-- **Arobi Network** — evidence/commitment and settlement infrastructure for supported Arobi lanes.
-- **Robot Assurance Passport** — a current, independently verifiable evidence package for robot releases, procurement, and insurance workflows. Arobi supplies evidence; licensed partners decide coverage, pricing, and claims.
+| Benchmark | Result |
+|---|---|
+| **Rubik's cube, tool-assisted orchestration** (2026-10-20) | **Ullumii solved 8 of 8** scrambles from depth 3 to depth 12, with 0 invalid moves. It used about **2,000 tokens per game**, 2 or 3 model calls, and a median of 3.9 s per game. |
+| **Rubik's cube, frontier models reasoning move by move** (2026-10-18/19) | Codex solved 8 of 8 using 181k to 917k input tokens per game. Claude Code solved 3 of 4 before its preset plan-usage cap. |
+| **Visual reasoning, held out** (2026-10-17) | **85%** (51 of 60), 95% interval 74–92%. Charts, receipts, tables, grids, geometry and settings screens were all 6 of 6. Each answer cost about $0.0001 (median 5.2 s). |
+| **Q response latency** (2026-10-18) | First visible word in **1.0–1.6 s** with streaming. A buffered answer on the same day took 17.4 s. |
+| **Arobi readiness benchmark** (live) | **100/100**: 8 of 8 public probes pass and 0 fail. The probes cover the chain, receipts, seal, replay, policy gates, entitlement and checkout. |
+
+Every benchmark was preregistered or run on a fixed game set, scored by fixed rules, and logged per run. Where a result is negative or doesn't support a claim, we say so. See *What we don't claim* in BENCHMARKS.md.
+
+## Research practice
+
+- **Prereg first.** We write down the hypotheses, thresholds and held-out seeds before the first model call. Deviations are appended, never edited away.
+- **Find what works by elimination.** In the vision study, 6 popular prompting techniques and 2 tools were each tested against a preset bar. None cleared it, so none shipped.
+- **Honest comparisons.** Every subject plays the same games under its own published plan. A tool-assisted result is labelled as tool-assisted and never shown as the same task as move-by-move reasoning.
+- **Replays are checked.** Every benchmark clip is rebuilt from the engine log and checked state by state. If a single frame mismatches, the clip is deleted.
 
 ## Engineering principles
 
-- Authority before effect.
-- Evidence after effect.
+- Authority before effect; evidence after effect.
 - Current authorization beats remembered permission.
-- Human control and emergency hold where required.
-- Material change requires revalidation.
-- Exactly-once / idempotency protection where duplicate physical or financial effects matter.
-- Preserve failures, contradictory evidence, and inconclusive results.
+- Material change requires revalidation; human hold where required.
+- Exactly-once protection where duplicate physical or financial effects matter.
+- Preserve failures, contradictions and inconclusive results.
 - Independent recomputation instead of trusting a dashboard.
-- Tenant isolation, least privilege, provenance, and explicit context lineage.
-- No mock, placeholder, null, or hardcoded-success state represented as production proof.
+- Nothing mocked, placeholder or hardcoded is ever presented as production proof.
 
-## Current engineering focus
+## Stack
 
-Recent Arobi work includes:
+TypeScript / Node.js, Rust, Python and Go. Cloudflare Workers, Netlify, Postgres and Substrate. Cryptographic evidence, policy enforcement, agent harnesses, model routing, memory and context systems, signed desktop releases, and robotics assurance.
 
-- authority-bound effect warrants and fail-closed preflight;
-- Ullumii provider/model/agent harness convergence;
-- confidential prompt and provider-egress boundaries;
-- evidence-memory and external-memory adapters that cannot mint execution authority;
-- signed execution observations, effect closure, replay, and finality binding;
-- runtime/provider connectors, model routing, audit trails, and readable action reports;
-- robotics assurance invariants for identity, safe uncertainty, and exactly-once physical effects.
+## About the source
 
-## Selected public repositories
-
-- [AI_UI](https://github.com/PossumXI/AI_UI) — Rust-based AI-native desktop-shell research.
-- [ASI-Evolve](https://github.com/PossumXI/ASI-Evolve) — autonomous research-loop work with an Arobi integration layer.
-- [Immaculate-route](https://github.com/PossumXI/Immaculate-route) — routing/provider experimentation; upstream attribution remains with the original project.
-- [OpenJaw_deepagents](https://github.com/PossumXI/OpenJaw_deepagents) — legacy compatibility/research fork around agent-harness work.
-- [jaws-downloads](https://github.com/PossumXI/jaws-downloads) — legacy installer compatibility surface; current product naming is Ullumii.
-
-The primary Arobi product repositories are private while product, evidence, and supported public surfaces are published through the links above.
-
-## Technical surface
-
-Current work spans **TypeScript / Node.js / Next.js, Rust, Python, Go, GitHub Actions, API gateways, WebSockets, cryptographic evidence, policy enforcement, agent harnesses, model/provider adapters, memory/context systems, robotics assurance, and deployment infrastructure**.
-
-## Public identity & indexing
-
-For crawlers, answer engines, researchers, and integrators:
-
-- Canonical company: **Arobi Technology Alliance, Inc.**
-- Founder: **Gaetano Comparcola**
-- Canonical workspace product: **Ullumii by Arobi**
-- Execution-assurance layer: **Immaculate**
-- Company origin: https://aura-genesis.org/
-- Ullumii / Immaculate public surface: https://www.iorch.net/
-- GitHub: https://github.com/PossumXI
+All Arobi source code is proprietary to **Arobi Technology Alliance, Inc.**, and its repositories are private. This profile shows what is public: shipped products, live endpoints and measured results. Interested in a pilot, a partnership or an investment? Start at [aura-genesis.org](https://aura-genesis.org/).
 
 ## Evidence boundary
 
-Arobi is not an insurer and does not claim that a repository, benchmark, demo, or public page is itself a safety certification or independent third-party certification. Public claims should be read together with their stated implementation status, evidence, limitations, and deployment boundary.
+Arobi is not an insurer. No repository, benchmark, demo or public page is a safety certification or an independent third-party certification. Read each claim together with its date, method and stated limits.
