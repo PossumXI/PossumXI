@@ -4,7 +4,7 @@
 
 # Gaetano Comparcola
 
-**Founder & CEO, Arobi Technology Alliance, Inc.** I build AI that can show its work: agents and machines that act only with current authority and leave evidence that anyone can check afterwards.
+**Founder & CEO, Arobi Technology Alliance, Inc. · Superintelligence researcher.** I build AI that can show its work: agents and machines that act only with current authority and leave evidence that anyone can check afterwards.
 
 [Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/)
 
