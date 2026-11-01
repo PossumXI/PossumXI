@@ -6,9 +6,17 @@
 
 **Founder & CEO, Arobi Technology Alliance, Inc. · Superintelligence researcher.** I build AI that can show its work: agents and machines that act only with current authority and leave evidence that anyone can check afterwards.
 
-[Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/)
+[Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Research](https://aura-genesis.org/research/) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/)
 
 > **Intelligence is not authority.** A system should be able to show who was allowed to act, under which policy, what actually happened, and what evidence supports the result.
+
+## Writing
+
+- **[Three Pillars to Superintelligence Abundance](https://aura-genesis.org/research/three-pillars-to-superintelligence-abundance/)** (manifesto, 2026-10-31). Covers a universal standard of living, accountable superintelligence, and humanity united toward a cooperative future in the cosmos.
+- **[Governing Autonomous Intelligence](https://aura-genesis.org/research/governing-autonomous-intelligence/)** (white paper). Argues that safe AI autonomy is structural: intelligence proposes, an independent authority layer decides at the moment of action, and every action leaves evidence.
+- **[The Arobi Familiar Memory Plane](https://aura-genesis.org/research/familiar-memory-plane/)** (whitepaper). Explains how Arobi keeps AI memory from becoming authority.
+
+All of it is at [aura-genesis.org/research](https://aura-genesis.org/research/).
 
 ## Shipped and live (checked 2026-10-29)
 
