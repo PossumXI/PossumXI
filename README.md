@@ -6,15 +6,17 @@
 
 **Founder & CEO, Arobi Technology Alliance, Inc. · Technology entrepreneur & software architect.** Building infrastructure for accountable autonomous systems: agents and machines that act only with current authority and leave verifiable, auditable records afterwards.
 
-[Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Research](https://aura-genesis.org/research/) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/)
+[Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Research](https://aura-genesis.org/research/) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/) · [Engineering log](https://possumx.dev/)
 
 > **Intelligence is not authority.** A system should be able to show who was allowed to act, under which policy, what actually happened, and what evidence supports the result.
 
 ## Writing
 
+- **[System card: Q and Ullumii](https://aura-genesis.org/research/q-ullumii-system-card/)** (system card, 2026-11-12). Q, the AI from Arobi, and Ullumii as harness, orchestrator and computer: intended use, safety and governance, measured results and known limits.
+- **[Remember, prove, decide: how Arobi approached memory and evidence](https://aura-genesis.org/research/memory-and-evidence/)** (approach paper, 2026-11-12). Why Arobi keeps memory, evidence and authority apart: memory informs, evidence proves, and authority decides live at the moment of action.
+- **[Governing Autonomous Intelligence](https://aura-genesis.org/research/governing-autonomous-intelligence/)** (white paper, 2026-10-30). Argues that safe AI autonomy is structural: intelligence proposes, an independent authority layer decides at the moment of action, and every action leaves evidence.
+- **[The Arobi Familiar Memory Plane](https://aura-genesis.org/research/familiar-memory-plane/)** (whitepaper, 2026-10-30). Explains how Arobi keeps AI memory from becoming authority.
 - **[Three Pillars to Superintelligence Abundance](https://aura-genesis.org/research/three-pillars-to-superintelligence-abundance/)** (manifesto, 2026-10-31). Covers a universal standard of living, accountable superintelligence, and humanity united toward a cooperative future in the cosmos.
-- **[Governing Autonomous Intelligence](https://aura-genesis.org/research/governing-autonomous-intelligence/)** (white paper). Argues that safe AI autonomy is structural: intelligence proposes, an independent authority layer decides at the moment of action, and every action leaves evidence.
-- **[The Arobi Familiar Memory Plane](https://aura-genesis.org/research/familiar-memory-plane/)** (whitepaper). Explains how Arobi keeps AI memory from becoming authority.
 
 All of it is at [aura-genesis.org/research](https://aura-genesis.org/research/).
 
@@ -27,7 +29,7 @@ All of it is at [aura-genesis.org/research](https://aura-genesis.org/research/).
 | **HUE** 2.2.6 | Terminal agent for Windows, Linux and macOS (Apple silicon). Signed builds with published SHA-256 checksums. | [aura-genesis.org/hue](https://aura-genesis.org/hue) |
 | **Q** | The AI inside Ullumii that answers and does the work. Answers stream, with the first words in 1.0 to 1.6 s. | [Status](https://www.iorch.net/status) |
 | **Immaculate** | Checks each consequential action against current authority and policy before it runs. If the check can't pass, the action doesn't run. | [iorch.net/immaculate](https://www.iorch.net/immaculate) |
-| **LaaS + Verifier** | Sealed evidence records for decisions and effects, plus a verifier that recomputes them on its own. | [LaaS](https://aura-genesis.org/laas) · [Verifier](https://www.iorch.net/verifier) |
+| **Arobi Evidence + Verifier** | Sealed evidence records for decisions and effects, plus a verifier that recomputes them on its own. | [Arobi Evidence](https://aura-genesis.org/laas) · [Verifier](https://aura-genesis.org/verifier) |
 | **Arobi Network** | A live production chain that anchors evidence. It has over 1.57 million blocks and 1,630 redacted receipts anyone can inspect. | [Readiness benchmark](https://aura-genesis.org/benchmarks/arobi-spine) |
 | **Whisper** | End-to-end encrypted messaging. | [aura-genesis.org/whisper](https://aura-genesis.org/whisper) |
 
