@@ -4,7 +4,7 @@
 
 # Gaetano Comparcola
 
-**Founder & CEO, Arobi Technology Alliance, Inc. · Superintelligence researcher.** I build AI that can show its work: agents and machines that act only with current authority and leave evidence that anyone can check afterwards.
+**Founder & CEO, Arobi Technology Alliance, Inc. · Technology entrepreneur & software architect.** Building infrastructure for accountable autonomous systems: agents and machines that act only with current authority and leave verifiable, auditable records afterwards.
 
 [Ullumii](https://www.iorch.net/ullumii) · [Download](https://aura-genesis.org/download) · [HUE](https://aura-genesis.org/hue) · [Research](https://aura-genesis.org/research/) · [Benchmarks](./BENCHMARKS.md) · [Live status](https://www.iorch.net/status) · [Company](https://aura-genesis.org/)
 
@@ -66,7 +66,7 @@ Every benchmark was preregistered or run on a fixed game set, scored by fixed ru
 
 ## Stack
 
-TypeScript / Node.js, Rust, Python and Go. Cloudflare Workers, Netlify, Postgres and Substrate. Cryptographic evidence, policy enforcement, agent harnesses, model routing, memory and context systems, signed desktop releases, and robotics assurance.
+TypeScript / Node.js, Rust, Python and Go. Cloudflare Workers, Netlify, Postgres and Substrate. Verifiable evidence records, policy enforcement, agent harnesses, model routing, memory and context systems, signed desktop releases, and robotics assurance.
 
 ## About the source
 
